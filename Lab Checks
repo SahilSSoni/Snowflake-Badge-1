@@ -1,1 +1,30 @@
+SIGHNUP TO THE SNOWFLAKE CLOUD : 
+
+https://signup.snowflake.com/?utm_cta=website-learn-snowflake-university_dww
+
+CJHOSOE YOUR SNOWFLAKE EDITION :
+
+SELECT : ENTERPRISE 
+Cloud Provider : AWWS 
+Availability ZOne :  US WEST (OREGON )
+
+-------
+
+CREATE A DATABASE
+
+MAKE SURE  YOU ARE USING ACCOUNT ADMIN PROFILE
+
+Go to Database nder te Data Menu
+Click on Add Database
+enter name : DEMO_DB 
+click on CREATE
+and then Switch Your System Role to SYSADMIN
+
+------------------
+Again Switch Your System Role Back to ACCOUNTADMIN
+--------------------
+
+ Transfer Ownership of Your Database to the SYSADMIN Role
+
+
 
