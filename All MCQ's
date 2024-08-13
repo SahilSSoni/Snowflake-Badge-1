@@ -1,8 +1,358 @@
-Question . 1 Based on the video, what parts of her current job does Tsai LOVE? [Select 3]
-Answer : 1, 3 and 5
-1. Adding new data to her company's data stores (RIGHT ONE)
-2. Attending meetings, answering phone calls, and sending emails to keep data flowing when things change
-3. When new hardware makes the company's processes run faster  (RIGHT ONE)
-4. Installing new hardware, software and hardware maintenance windows, and pager duty
-5. Optimizing data storage and computing resources so that users can get their data fast and cheap (RIGHT ONE)
-6. Having to creating data silos to keep data running fast and cheap when the aren't better options
+SNOWFLAKE BADGE TRACK PAGE : https://learn.snowflake.com/en/pages/hands-on-essentials-track/
+
+--------------------------------------------------------------------------------------------------
+SIGN UP HERE and ENROLL TO THE COURSE and ENROLL IN TEH BADGE 1
+Badge 1: Data Warehousing Workshop
+--------------------------------------------------------------------------------------------------
+Question : Based on the video, what parts of her current job does Tsai LOVE? ❤️❤️❤️
+Select 3.
+Answer 1 ,3 and 5
+
+Adding new data to her company's data stores (RIGHT ONE)
+Attending meetings, answering phone calls, and sending emails to keep data flowing when things change
+When new hardware makes the company's processes run faster (RIGHT ONE)
+Installing new hardware, software and hardware maintenance windows, and pager duty
+Optimizing data storage and computing resources so that users can get their data fast and cheap (RIGHT ONE)
+Having to creating data silos to keep data running fast and cheap when the aren't better options
+
+----------------------------
+Question : Based on the video, what parts of her current job does Tsai NOT enjoy? 😩😩😩
+Select 3.
+Answer : 2,4 and 6
+Adding new data to her company's data stores
+Attending meetings, answering phone calls, and sending emails to keep data flowing when things change (RIGHT ONE)
+When new hardware makes the company's processes run faster
+Installing new hardware, software and hardware maintenance windows, and pager duty (RIGHT ONE)
+Optimizing data storage and computing resources so that users can get their data fast and cheap
+Having to creating data silos to keep data running fast and cheap when the aren't better options (RIGHT ONE)
+
+---------------------------------------
+Question : Based on the video, what benefits do you think Snowflake might offer companies and users, because it is a cloud-based Software-as-a-Service?
+✔️✔️ Select 2.
+Answer : 3 and 4 
+Free CD copies of all software releases, sent to the office via FedEx
+Meme slide shows on the status screen during hardware maintenance windows
+No software installations to be carried out by Tsai and her coworkers (or you and yours) (RIGHT ONE)
+No hardware purchases and/or software upgrades or maintenance windows for Tsai and her coworkers  (or you and yours) (RIGHT ONE)
+
+-------------------------------------------
+Question : Based on the video, what benefits do you think Snowflake might offer companies and users, by separating the storage of the data and the engines that perform computations and by using a pay-as-you-go model?
+✔️✔️ Select 2.
+Answer 1 and 3
+Tsai will not need to create data silos (copies of data) to add speed. (RIGHT ONE)
+Tsai and her coworkers can create data silos really quickly and conveniently.
+Tsai will have unlimited flexibility to balance speed and cost as needed (and make the changes immediately). (RIGHT ONE)
+Tsai's company can order really powerful machines they will only really need about 4 times a year, but pay for year round.
+Tsai's company can buy a lot of storage space, which will eventually fill up a few years from now, but pay for it now.
+--------------------
+Question : Based on the video, what benefits do you think Snowflake might offer companies and users, because of it's data sharing technologies?
+✔️✔️✔️✔️ Select 4.
+Answer : select 1 , 2, 3 and 4 ALL
+Fewer meetings, phone calls, and emails to decide exactly how data will be output by another company and picked up by yours.(RIGHT ONE)
+Fewer late night and weekend fire drills when something in the data transfer and load process breaks.(RIGHT ONE)
+Fewer emergency situations to get the data loading in time to make sure everything else doesn't also break.(RIGHT ONE)
+More time to focus on exploring and analyzing data, because you're not spending time transferring data and loading it.(RIGHT ONE)
+
+----------------------------------
+Question : Kishore has been using Snowflake at his job for awhile, so...
+✔️✔️✔️✔️ Select 4.
+Answer:  1, 2, 4, 5 
+He already passed the Data Warehousing Workshop.(RIGHT ONE)
+He already has a User (Login) for his employer's Snowflake account.(RIGHT ONE)
+He doesn't need a Snowflake Trial Account for the workshop because he can just use his employer's account.
+He should sign up for a trial so he can freely use all the Snowflake roles like ACCOUNTADMIN, SECURITYADMIN and others.(RIGHT ONE)
+He should sign up for a trial so he doesn't have to worry about making mistakes.(RIGHT ONE)
+
+--------------
+
+How should Tsai respond if the Snowflake user interface looks different than the screen capture in her lab instructions?
+✔️✔️✔️✔️ Select 4.
+Answer : 1, 2, 3, and 4 SELECT ALL 
+She should remember that the UIs are in transition and know that she might have to look around a little in case things have changed slightly.(RIGHT ONE)
+She should trust herself to figure things out, because the concepts are the same, even if the visual presentation is changing.(RIGHT ONE)
+She should check the discussion boards at the bottom of each page, the online documentation at docs.snowflake.com and the Community discussions at Stack Overflow for tips on where to find things.(RIGHT ONE)
+If she gets frustrated with the rate of change, she should consider switching to an instructor-led class where the instructors can give up-to-the-minute information.(RIGHT ONE)
+
+
+-----------------------
+Question : What tasks were you asked to complete above?
+Select 2. ✔️✔️
+Answer : 1 and 4 
+Sign up for a Snowflake Trial Account.(RIGHT ONE)
+Sign up for an AWS Console Account.
+Verify your Social Security Number (National ID).
+Activate your Snowflake Trial Account.(RIGHT ONE)
+Complete the Interface Tour.
+
+---------------------------
+Question : Based on the video, what are some ways to get help?
+Select 3.
+Answer : 1, 3 and 4
+Check the Stack Overflow. (RIGHT ONE)
+Demand a Zoom meeting with an Education team member (RIGHT ONE)
+Use the Course Search box
+Use the Discussion Search box (RIGHT ONE)
+Call 1-800-I-Dont-Feel-Like-Learning
+
+--------------------------
+Question : Based on the video, what should you do BEFORE posting a message in the discussion boards?
+Select 3.
+Answer : 2 ,3 ,4 
+Just post a message, immediately. Your time is too valuable to waste it on learning.
+Check the FAQs.(RIGHT ONE)
+Try searching the course and discussion boards. Someone else might have had your same question or error.(RIGHT ONE)
+Use Stack Overflow and Snowflake Community discussions(RIGHT ONE)
+Try posting "test" just to see if the message boards are working.
+---------------------------------
+Based on the video, what types of discussion board messages will get deleted?
+Select 4.
+Answe : 1,2,3,and 4
+Posts like "test", "yes", "so far, so good", "na" (RIGHT ONE)
+Posts of copy/pasted error messages followed by "Please resolve, asap". (RIGHT ONE)
+Posts about how much better the course would be if we implemented your instructional suggestions. (RIGHT ONE)
+Posts about how much better the product would be if we implemented your suggestions. (RIGHT ONE)
+Posts that show you have tried many ways of getting help via other methods and have drawn some conclusions, but have not been able to resolve your issue and are willing to continue trying, but are also asking staff and fellow students if they have any ideas.
+
+------------------------------------
+Question : When you created your DEMO_DB database, what two schemas were created for you?
+Answer : 1 and 4
+INFORMATION_SCHEMA (RIGHT ONE)
+METADATA_SCHEMA
+PLEBEIANS
+PUBLIC (RIGHT ONE)
+
+--------------------------------------
+Question :  Which role is listed as the OWNER role of the DEMO_DB database Tsai created?
+Answer : 1 
+ACCOUNTADMIN (RIGHT ONE)
+SECURITYADMIN
+SYSADMIN
+USERADMIN
+------------------------------------------
+
+Question :
+Which of the following statements seem true about database ownership?
+Select 4.
+Answer : 1, 3 4 and 6 
+SYSADMIN owns the database now. (RIGHT ONE)
+SECURITYADMIN owns the database now. (RIGHT ONE)
+ACCOUNTADMIN owns the SYSADMIN role, so it has ownership rights also, but indirectly.
+ACCOUNTADMIN owned the database originally because it was the role setting during database creation. (RIGHT ONE)
+SECURITYADMIN owned the database originally because it was the role setting during database creation.
+We can transfer ownership of a database to a different role, after it has been created. (RIGHT ONE)
+
+-----------------------------------------------
+Question : Check all that are true about IDENTITY:
+Select 3.
+Answer : 2, 4 and 5 
+Passing an identity check is called Authorization.
+Passing an identity check is called Authentication. (RIGHT ONE)
+Identity is about WHAT you can see/do. 
+Identity is about WHO you are.(RIGHT ONE) 
+Identity is sometimes tested and proven through username and password combinations. (RIGHT ONE)
+Identity is sometimes tested and proven through RBAC role assignments.
+----------------------------------------------------
+Question: Check all that are true about ACCESS:
+Select 3.
+Anser : 1, 3, and 6
+Proving a right to access something is called Authorization. (RIGHT ONE)
+Proving a right to access something is called Authentication.
+Access is about WHAT you can see/do. (RIGHT ONE)
+Access is about WHO you are.
+Access is sometimes tested and awarded through username and password combinations.
+Access is sometimes tested and awarded through RBAC role assignments. (RIGHT ONE)
+
+---------------------------------------------
+
+Check all that are true about Snowflake Account Roles:
+Select 3.
+Answe : 1 , 3 and 6 
+There's a new role called ORGADMIN.  (RIGHT ONE)
+There's a new role called ADMINROYALTY.
+Trial Accounts now use ACCOUNTADMIN as the default role.  (RIGHT ONE)
+Trial Accounts now use SYSADMIN as the default role.
+You should never use ACCOUNTADMIN in this workshop.
+You will use ACCOUNTADMIN for many tasks during this workshop.  (RIGHT ONE)
+
+---------------------------------------------
+Question : Which of the options below are in the same tree or chart as ACCOUNTADMIN?
+Select 3.
+Ans : 4 , 5 and 7 
+TYANG
+PUBLIC
+ORGADMIN
+SYSADMIN (RIGHT ONE) 
+SECURITYADMIN (RIGHT ONE)
+USERROLE 
+USERADMIN (RIGHT ONE)
+
+-----------------------------------------
+Question : Trial account users are awarded a high-powered role and inherit (BOGO) several others. Which of the statements below are true?
+Select 2 answers.
+Anser : 1 and 4 
+When you sign up for a trial, you are directly awarded the ACCOUNTADMIN user role. (RIGHT ONE)
+When you sign up for a trial, you get the ACCOUNTADMIN role via BOGO.
+When you sign up for a trial, you are directly awarded the SECURITYADMIN user role.
+When you sign up for a trial, you get the SECURITYADMIN role via BOGO. (RIGHT ONE)
+------------------------------------------
+Question : Select all statements that are true about Snowflake's Access Control Model.
+Select 4.
+ans : 1 ,2 and 5 and 6 
+Snowflake uses Role-based Access Control (RBAC)  (RIGHT ONE)
+Snowflake uses Discretionary Access Control (DAC).  (RIGHT ONE)
+In Snowflake, rights and privileges are awarded to USERS.
+In Snowflake, OWNERSHIP of items belongs to USERS.
+In Snowflake, rights and privileges are awarded to ROLES.  (RIGHT ONE)
+In Snowflake, OWNERSHIP of items belongs to ROLES.  (RIGHT ONE)
+
+----------------------------------------
+Question : Some roles have custodial oversight over objects owned by other roles. Check all that are true.
+Select 2.
+Answer :  3 and 4 
+If ACCOUNTADMIN creates a database, SYSADMIN can delete it.
+If SYSADMIN creates a database, PUBLIC can delete it.
+If SYSADMIN creates a database, ACCOUNTADMIN can delete it. (RIGHT ONE)
+If SECURITYADMIN owns a ROLE, ACCOUNTADMIN can change the name. (RIGHT ONE)
+If ACCOUNTADMIN creates a ROLE, SECURITYADMIN can delete it. 
+
+------------------------------------------
+Question : How does the default role affect your Snowflake work?
+Answer :  3 only 
+You can never use any other role in Snowflake except your default. You can see the other roles but you can't really use them.
+The default role is the only role that you can use to create objects, but you can use other roles to run SELECT statements.
+If you change your system role (upper corner - not worksheet) to another role, when you log out and log back in, your role will revert to the default. (RIGHT ONE)
+
+---------------------------------------
+Question : If you know a database exists but you suddenly cannot see it or you get an error message that says it doesn't exist, what should you check first?
+Answer : 4 only 
+Your current USER name
+Your default ROLE
+Your current ACCOUNT
+Your current ROLE (RIGHT ONE)
+
+------------------------------------------
+Question : Imagine that you create a database while your role is set to ACCOUNTADMIN. Later, you transfer the database ownership to SYSADMIN. Then, you get an error saying the PUBLIC Schema DOES NOT EXIST. What SEQUENCE of steps should you take if you want to access the PUBLIC schema while in the SYSADMIN role?
+Select 4.
+Answer 1, 3, 5, and 6 
+Step 1) Change your role to ACCOUNTADMIN and refresh the browser.(RIGHT ONE)
+Step 2) Transfer ownership of the database back to ACCOUNTADMIN.
+Step 2) Navigate to the PUBLIC schema.(RIGHT ONE)
+Step 3) Create a new schema called SA_PUBLIC.
+Step 3) Transfer the ownership of the PUBLIC schema to SYSADMIN. (RIGHT ONE)
+Step 4) Change your role to SYSADMIN and refresh the browser. (RIGHT ONE)
+Step 4) Delete your USER.
+
+-------------------------------------------------
+Question : Uncle Yer initially moved his data from paper to what kind of software?
+Answer : 2 only 
+Word Processing software
+Spreadsheet software (RIGHT ONE)
+HTML software
+Learning software
+-----------------------------
+
+Question :  Uncle Yer embraced the new data system by teaching himself to use what?
+Answer :  1 only  
+Spreadsheet functions like UPPER (RIGHT ONE)
+SQL functions like TRIM
+SQL commands like UPDATE
+Word functions for pagination
+
+---------------------------------------
+Question : Tsai worried that shifting Uncle Yer's data to database software would cause what issues?
+Select 2.
+answer : 2 and 3 
+Uncle Yer would feel guilty about leaving spreadsheets behind after so much effort learning them
+Uncle Yer might find database concepts too difficult (RIGHT ONE)
+Uncle Yer would not want to pay the expensive up-front costs for a traditional database system license (RIGHT ONE)
+Uncle Yer doesn't like new technology and would want to stick with what he already knows
+
+-----------------------------------
+
+Question : Tsai decides to teach Uncle Yer to use Snowflake for what 3 reasons?
+Answer : 1, 2, 3 (SELECT ALL )
+Snowflake has awesome, free courses to help learners get started easily. (RIGHT ONE)
+Snowflake has a simplified UI designed to help learners focus effectively during the learning process. (RIGHT ONE)
+Snowflake does not require an up-front purchase. Instead, it has free trial credits and then converts to a pay-as-you-go model. (RIGHT ONE)
+
+-------------------------------------
+Question : In the animation above, which role is listed as the OWNER of the database created by Tsai?
+Answer : 2 only 
+ACCOUNTADMIN
+SYSADMIN (RIGHT ONE)
+SECURITYADMIN
+PUBLIC
+-----------------------------------
+
+Why do you think the owner was set as it was?
+Answer : 1 only 
+Her role setting at the time she created the database controlled which role became the owner. (RIGHT ONE)
+All databases are owned by the same role.
+The ownership role is assigned randomly because guessing the ownership of a database is super fun!
+
+--------------------------------
+
+Question : There are four drop-menu settings or defaults for each worksheet. What are the four drop-menu worksheet context settings?
+Anser : 1 , 2, and 4 and 5 
+Database (RIGHT ONE)
+Schema (RIGHT ONE)
+Account
+Warehouse (RIGHT ONE)
+Role (RIGHT ONE)
+Password 
+Username 
+
+
+------------------------------
+Question : Look at the picture above. If we click the RUN button now, what line(s) of code will run?
+Answer: 3 only  
+1-5
+3-5
+3 only (RIGHT ONE)
+4 only
+5 only
+
+-------------------------
+
+Look at the picture above. Look at the results section. How can we know which line of code produced the result set shown?
+Answer : 1 only 
+We know it was line 4 because the blue side bar always indicates the last statement run.  (RIGHT ONE)
+We can't know because line 3, 4, and 5 will create the same results.
+We know it was line 3 because the cursor has moved to line 4 after running line 3.
+
+-------------------
+
+Question : Look at the picture above. The yellow background on the word select indicates an error. What would you do to fix this code so it will not throw an error?
+Answer : 4 only 
+Replace "select" with "SELECT" (upper case)
+Put a blank line between each statement so it knows where one statement ends and another begins.
+Place the cursor before the word "select" on line 4, before I hit RUN again so it knows to begin at the beginning of line 4.
+Place a semi-colon at the end of line 4.  (RIGHT ONE)
+
+----------------
+Question : How does adding "IN ACCOUNT" to the SHOW SCHEMAS command change the result set?
+Answer : 2 only 
+No schemas are shown. The command is not valid.
+All schemas from all databases are shown (based on current role).   (RIGHT ONE)
+Only schemas from databases owned by ACCOUNTADMIN are shown.
+------------
+
+Question : 
+What is the difference between a regular lab and a Challenge Lab?
+Select 2.
+Answer:  3 and 4 
+Challenge labs are optional.
+Challenge labs are for advanced users only.
+Challenge labs ask you to complete tasks without giving you step-by-step instructions.  (RIGHT ONE)
+Challenge labs don't teach new skills, they give you a chance to apply recently learned skills again.  (RIGHT ONE)
+
+---------------
+Question : Refer to the above image to answer this question. You created the schema called VEGGIES but when you run the SHOW SCHEMAS command it does not appear. Assuming your current worksheet role has access to the schema, what options below would make the schema appear in the results?
+Select all that apply.
+Answer : 2 and 5 
+Change your default role to SYSADMIN (and run again).
+Set the worksheet database drop menu to GARDEN_PLANTS (and run again).  (RIGHT ONE)
+Set the worksheet warehouse drop menu to VEGGIES_WH (and run again).
+Add "all" to the show schemas command (and run again).  (RIGHT ONE)
+Add "in account" to the show schemas command (and run again).  (RIGHT ONE)
+Add "where schema = 'VEGGIES' " to the show schemas command (and run again).
