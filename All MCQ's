@@ -356,3 +356,336 @@ Set the worksheet warehouse drop menu to VEGGIES_WH (and run again).
 Add "all" to the show schemas command (and run again).  (RIGHT ONE)
 Add "in account" to the show schemas command (and run again).  (RIGHT ONE)
 Add "where schema = 'VEGGIES' " to the show schemas command (and run again).
+
+------------------
+Question : What is the name of the coding language used for many databases? (Mark the name as well as the acceptable "nicknames" or pronunciations of the coding language)
+Select 3.
+Answer : 3 , 4 and 7
+Sequential
+"Segundo"
+"SeQueL" (RIGHT ONE)
+Structured Query Language (RIGHT ONE)
+Sequential Question Language
+Structured Query Lingo
+S.Q.L. (RIGHT ONE)
+--------------------
+Question : The data in the spreadsheets isn't quite right for database use. What are the two skills Tsai uses to re-structure the data to make it more ready for a database?
+Select 2.
+Answer :  3 and 4 
+Structured Query Language
+Visual Basic
+Normalization (RIGHT ONE)
+Data Modeling (RIGHT ONE)
+
+---------
+Question : Tsai classifies each column according to data type. What are the two data types she uses in planning the ROOT_DEPTH table?
+Select 2.
+Answer : 3 and 6 
+DECIMAL
+FLOAT
+NUMBER (RIGHT ONE)
+STRING
+BINARY 
+TEXT(RIGHT ONE)
+VARCHAR
+
+
+---------
+Question :  Snowflake made some changes to the SQL as it created the table. What changes were made?
+Select 2.
+Answer :  3 and 4
+Snowflake changed the name of the table.
+Snowflake converted the NUMBER data type to VARCHAR.
+Snowflake converted the TEXT data type to VARCHAR. (RIGHT ONE)
+Snowflake added a comma and digit to represent the number of decimals in each NUMBER column. (RIGHT ONE)
+Snowflake changed the owner from TYANG to SYSADMIN.
+
+---------
+Question :  How can you PREVIEW data in a table while in an AppUI Worksheet?
+Answer : 1 only 
+You can find the table in the Object Picker, click on the table name, then click on the magnifying glass symbol. (RIGHT ONE)
+You can set your worksheet context TABLE drop menu to PREVIEW, which is designed for data previewing.
+You can set your worksheet context ROLE drop menu to PUBLIC, which is designed for data previewing.
+You can right-click on the table name and choose the "Table Preview Now" option.
+
+---------
+Question : What is the role of the * symbol in a SELECT statement?
+Answer : 3 only 
+You can use it to quickly ask for all rows.
+You can use it to quickly ask for all tables.
+You can use it to quickly ask for all columns. (RIGHT ONE)
+You can use it to quickly ask for all schemas.
+
+--------- 
+Question : What is the role of a LIMIT in a SELECT statement?
+Answer : 1 only 
+You can use it to quickly ask for a limited set of rows. (RIGHT ONE)
+You can use it to quickly ask for a limited set of tables.
+You can use it to quickly ask for a limited set of columns.
+You can use it to quickly ask for a limited set of schemas.
+
+---------
+Question :  Which Role should own your ROOT_DEPTH table?
+Answer : 2 only 
+ACCOUNTADMIN
+SYSADMIN  (RIGHT ONE)
+PUBLIC
+
+---------
+Question : What settings can you choose for each Worksheet (often called the Worksheet Context) that make writing and running code easier to type and simpler to read?
+Select 2.
+Answer: 1 and 2
+The "home" Database  (RIGHT ONE)
+The "home" Schema (RIGHT ONE)
+The "home" Table
+The "home" Account
+-----------------------
+ Question :  What settings MUST you choose for each Worksheet (also called the Worksheet Context) that, without them, code cannot run?
+Select 2.
+Answer :  1 and 4
+The warehouse to be used for all processing. (RIGHT ONE)
+The table to be used for compute.
+The account to be used for all processing.
+The user role to carry out the commands. (RIGHT ONE)
+The user name to carry out the commands.
+The account to carry out the commands.
+
+---------
+Question : Two of the context settings in a worksheet are in the upper-right corner, while two are in the middle, closer to the code. Why do you think they are positioned this way?
+Select 2.
+Answer : 1 and 3 
+The set near the code is intended for convenience and simplicity of code.  (RIGHT ONE)
+The set near the upper corner is intended for convenience and simplicity of code.
+The set near the upper corner is NOT for convenience, it is required.  (RIGHT ONE)   
+The set near the code is NOT for convenience, it is required.
+
+---------
+Question : You created a table and added some rows, later you try to query the table and Snowflake says the table doesn't exist? What is the first rule of Snowflake troubleshooting?
+Answer : only 3 
+Check your USER name.
+Check your default ROLE.
+Check your current ROLE. (RIGHT ONE) 
+Check your ACCOUNT.
+
+---------
+Question : Find all the true statements about Snowflake Warehouses below and select them.
+Select 3.
+Answer : 3 , 4 and 6 
+Snowflake Warehouses are like Data Marts in that they hold subsections of an organization's data.
+Snowflake Warehouses were designed to hold data in structures based on Kimball and Inmon Data Warehousing theories.
+Snowflake Warehouses do not hold data.  (RIGHT ONE) 
+Snowflake Warehouses provide computing power to run queries, load data, and carry out other tasks.  (RIGHT ONE) 
+Functionally, a Snowflake Warehouse is more like a spreadsheet workbook than a laptop CPU. 
+Functionally, a Snowflake Warehouse is more like a laptop CPU than a spreadsheet workbook.  (RIGHT ONE) 
+
+---------
+Question : Scaling OUT/IN and scaling UP/DOWN are easily confused. Check all the true statements about scaling, below.
+Select 3.
+Ans:  1, 5 and 9 
+Editing a XS Warehouse and making it a M is an example of scaling UP. (RIGHT ONE) 
+Editing a XS Warehouse and making it a M is an example of scaling DOWN.
+Editing a XS Warehouse and making it a M is an example of scaling OUT.
+Editing a XL Warehouse and making it a M is an example of scaling UP.
+Editing a XL Warehouse and making it a M is an example of scaling DOWN. (RIGHT ONE) 
+Editing a XL Warehouse and making it a M is an example of scaling OUT.
+When an XS Warehouse automatically adds clusters to handle an increase workload, this is an example of scaling UP.
+When an XS Warehouse automatically adds clusters to handle an increase workload, this is an example of scaling DOWN.
+When an XS Warehouse automatically adds clusters to handle an increase workload, this is an example of scaling OUT. (RIGHT ONE) 
+
+---------
+Question :  
+Warehouses can be manually scaled UP or DOWN. They can be set up so that they automatically scale OUT. What did the video call the opposite of SCALING OUT?
+Answer : 2 only 
+De-Scaling
+Snapping Back  (RIGHT ONE) 
+Shedding Clusters
+Scaling DOWN
+
+---------
+Question : Warehouse scaling involves both servers and clusters. Which statements are true about the role of servers and clusters in Warehouse sizing and scaling?
+Select 7.
+Answer : 1, 3 ,4 , 6 , 7, 8 and 10 
+Cluster just means a "group" of servers. (RIGHT ONE) 
+Server just means a "group" of clusters. 
+An XS-sized warehouse (not scaled out) has 1 cluster. (RIGHT ONE) 
+An M-sized warehouse (not scaled out) has 1 cluster. (RIGHT ONE) 
+An M-sized warehouse (not scaled out) has more clusters than an XS-sized Warehouse.
+The number of servers in a warehouse is different, based on size (XS, S, M, etc)
+An XS-sized Warehouse, when scaled out, has more than 1 cluster. (RIGHT ONE) 
+An M-sized Warehouse, when scaled out, has more than 1 cluster. (RIGHT ONE) 
+A server can hold multiple clusters.
+A cluster can hold multiple servers. (RIGHT ONE) 
+
+---------
+Question :  vWhen should you scale up an existing warehouse?
+Select 2.
+Answer:  2 only 
+When you're bored and it seems like something fun to try.
+When you've carefully considered the impact of scaling up: increased credits used per hour.  (RIGHT ONE) 
+When the devil on one shoulder is shouting louder than the angel on the other shoulder
+
+---------
+Question : A few hours from now, a message pops up saying "Warehouse 'COMPUTE_WH' cannot be resumed because resource monitor '{X}' has exceeded its quota." How could you handle this issue?
+Select 2.
+Answer:  1 and 3
+I could take a break and pick up the workshop tomorrow when I will get 3 new credits to work with. (RIGHT ONE) 
+I could take my Snowflake Account to one of those shady auto shops that rolls back odometers on cars.
+I could just edit the quota on the Resource Monitor so that my quota is now 5 per day (in spite of the name). (RIGHT ONE) 
+I could copy and paste the "error" in the message boards as if Resource Monitors are a totally mysterious concept over which I can't possibly have full control.
+
+---------
+Question : You see this DOES NOT EXIST message when trying to run the select statement shown (see image above)? What is the issue?
+Answer :  5 only 
+Your default role is wrong.
+Your current worksheet user is wrong.
+Your worksheet database setting is wrong.
+Your worksheet schema setting is wrong.
+You have a typo.  (RIGHT ONE) 
+Your account is not activated.
+
+---------
+Question :  How difficult did you find the question above?
+Answer : select any answer 
+I got it the first time I tried.
+It took some thinking but I was able to answer it pretty easily.
+I think this question is broken.
+It took me awhile but I got it correct. It's a GOOD question.
+It took me awhile but I got it correct. It's a BAD question.
+
+---------
+Question : How many schemas does your (should your) GARDEN PLANTS Database have?
+answer : 3rd only 
+2
+3
+4 (RIGHT ONE) 
+
+
+---------
+Question : What is the definition of Metadata?
+Answer: 3 only 
+Data about meta.
+Data that is above other data.
+Data about data. (RIGHT ONE) 
+
+---------
+Question : Where does Snowflake store some of its Metadata?
+Answer:  4 only 
+The INFORMATION_DB database of each account.
+The METADATA_SCHEMA of each database.
+The INFO_METADATA schema of each database.
+The INFORMATION_SCHEMA schema of each database. (RIGHT ONE) 
+
+--------- 
+Question : If we want to check for the schemas we created, why not just look with our own eyes to see if they are there?
+Select 3.
+Answer : 1, 2 and 3 SELECT ALL 
+Because if we misspelled something, we might not notice the name issue, but checking via code might catch it. (RIGHT ONE) 
+Because we may want to automate the check for some reason. (RIGHT ONE) 
+Because coding things is fun. (RIGHT ONE) 
+ 
+---------
+Question :  Why should you open Uncle Yer's CSV file in a simple text editor instead of Excel or sheets?
+Anser: 4 only 
+Because some of the plant names have tabs in them
+Because Excel is copyrighted
+So you can see which words aren't capitalized
+So you can see how commas are separating the values in each row. (RIGHT ONE) 
+
+---------
+Question : Let's review our recent actions. Which of the following tasks have we performed?
+Select 6.
+Asnwer: 1, 2, 4, 6, 7, 8, 
+Loaded 42 rows into the VEGETABLE_DETAILS table.  (RIGHT ONE) 
+Viewed a chart showing a count of each value in the PLANT_NAME column.  (RIGHT ONE) 
+Found two rows where the PLANT_NAME was "Celery."
+Found two rows where the PLANT_NAME was "Spinach."  (RIGHT ONE) 
+Found two rows where the PLANT_NAME was "Arugula."
+Removed one row that had a ROOT_DEPTH_CODE of "D".  (RIGHT ONE) 
+Checked to confirm we had 41 rows.  (RIGHT ONE) 
+Confirmed a count of 1 for each value in the PLANT_NAME column using a chart.  (RIGHT ONE) 
+
+
+---------
+Question :  Which file format property, when set to TRUE, has the power to ignore the square brackets and load each author into a separate row?
+Answer: only 3
+ENABLE_OCTAL
+ALLOW_DUPLICATE
+STRIP_OUTER_ARRAY (RIGHT ONE) 
+STRIP_NULL_VALUES
+IGNORE_UTF8_ERRORS
+
+---------
+Question :  Which of these looks like an Snowflake Account Locator?
+Anser: 3 only 
+0053246MMRxJAAT
+SLIMSHADY86
+MC46564 (RIGHT ONE) 
+
+---------
+Question : If you run a SELECT statement that has worked in the past, but now you get an error message saying the table doesn't exist, what should you check?
+
+Answer: 3 
+only Your cloud provider.
+Your current region.
+Your worksheet context role. (RIGHT ONE) 
+Your worksheet context warehouse.
+Your role under your name in the upper corner.
+ 
+---------
+Question : Which of these objects has the most compute power?
+Answer: 4 only 
+A Snowflake Database.
+A Snowflake Schema.
+A Snowflake Sequence.
+A Snowflake Warehouse. (RIGHT ONE) 
+A Snowflake Data Mart.
+
+---------
+Question : Which of these objects is the lowest or smallest in the storage container hierarchy?
+Answer: 5 only 
+A Snowflake Database.
+A Snowflake Schema.
+A Snowflake Region.
+A Snowflake Account.
+A Snowflake Table.  (RIGHT ONE) 
+
+---------
+Question : Which of the statements below describes an external Stage in Snowflake?
+Select 3.
+Answer: 1, 2 and 3
+You can use a COPY INTO statement to move data from a stage, into a table. (RIGHT ONE) 
+A stage can provide a "window" between Snowflake and a cloud folder. (RIGHT ONE) 
+A stage is often intended as a temporary location for data. Data is put there on it's way to longer term location. (RIGHT ONE) 
+A stage can be used as a counter to generate unique ids for each new row in a table. We assign a starting value and an increment.
+A stage allows us to group database tables. For example, we created 3 stages in the GARDEN_PLANTS database. One was named VEGGIES. .
+
+---------
+Question : How Many Credits Have You Used for this Workshop?
+Please look on the Admin Usage page of your Snowflake Trial. Use a Date Range of "ALL TIME" and a Usage Type of "COMPUTE."
+Answe: Select any 
+
+< 5 Credits
+5 to 10 Credits
+10 to 15 Credits
+15 to 25 credits
+25 to 50 Credits
+
+
+
+
+---------
+Question
+
+---------
+Question
+
+---------
+Question
+
+---------
+Question
+
+---------
+Question
+
+---------
