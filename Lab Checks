@@ -26,7 +26,7 @@ Again Switch Your System Role Back to ACCOUNTADMIN
 
  Transfer Ownership of Your Database to the SYSADMIN Role
 
-
+-------------------------------------
 -------------------
 use role sysadmin;
 create or replace table GARDEN_PLANTS.VEGGIES.ROOT_DEPTH (
@@ -394,6 +394,47 @@ select GRADER(step, (actual = expected), actual, expected, description) as grade
 ); 
 
 -----------------------------------
+
+Create a Fruit Details Table - Model it After the Other 2 Details Tables
+
+🥋 Create a Streamlit-in-Snowflake Data Entry Form
+Name: Uncles Yer's Root Depth Entry Form 
+App Location: 
+From First Dropdown select : GArden_Plants
+from second dropdown select : Fruits 
+
+App Warehouse: 
+COMPUTE_SH
+Click on Create 
+
+-----------------
+
+DELETE THE WHOLE CODE AFTER LINE 17
+
+---------------
+
+🥋 Edit the Form Title & Instruction Line
+and click on run
+
+Delete the existing code and upde with the below one
+
+# Import python packages
+import streamlit as st
+from snowflake.snowpark.context import get_active_session
+
+# Write directly to the app
+st.title(":apple: Uncle Yer's Fruit Details :apple:")
+st.write(
+    """Enter Fruit Name and root depth code below.
+    """
+)
+
+# Get the current credentials
+session = get_active_session()
+
+
+
+-----------
 
 
 st.text_input('Fruit Name:')
