@@ -395,12 +395,28 @@ select GRADER(step, (actual = expected), actual, expected, description) as grade
 
 -----------------------------------
 
+CREATE TABLE
+
+------
+FRUIT under
+
+create or replace TABLE GARDEN_PLANTS.FRUITS.FRUIT_DETAILS (
+	FRUIT_NAME VARCHAR(25),
+	ROOT_DEPTH_CODE VARCHAR(1)
+);
+----------
+Under FLOWER  Folder
+create or replace TABLE GARDEN_PLANTS.FLOWERS.FLOWER_DETAILS (
+	FLOWER_NAME VARCHAR(25),
+	ROOT_DEPTH_CODE VARCHAR(1)
+);
+
 Create a Fruit Details Table - Model it After the Other 2 Details Tables
 
 🥋 Create a Streamlit-in-Snowflake Data Entry Form
 Name: Uncles Yer's Root Depth Entry Form 
 App Location: 
-From First Dropdown select : GArden_Plants
+From First Dropdown select : Garden_Plants
 from second dropdown select : Fruits 
 
 App Warehouse: 
@@ -435,6 +451,7 @@ session = get_active_session()
 
 
 -----------
+add code below the exising one code - dont delete any code - only add code to the below
 
 
 st.text_input('Fruit Name:')
@@ -442,18 +459,101 @@ st.selectbox('Root Depth:', ('S','M','D'))
 
 -------------------------------
 
+delet the whole code and update the below code 
+
+# Import python packages
+import streamlit as st
+from snowflake.snowpark.context import get_active_session
+
+# Write directly to the app
+st.title(":apple: Uncle Yer's Fruit Details :apple:")
+st.write(
+    """Enter Fruit Name and root depth code below.
+    """
+)
+
+# Get the current credentials
+session = get_active_session()
+
+fn = st.text_input('Fruit Name:')
+rdc = st.selectbox('Root Depth:', ('S','M','D'))
+
 if st.button('Submit'):
     st.write('Fruit Name entered is ' + fn)
     st.write('Root Depth Code chosen is ' + rdc)
 
 
+-------
+click run
+
 -----------------------------
 
- sql_insert = 'insert into garden_plants.fruits.fruit_details select '+fn+','+rdc
- st.write(sql_insert)
+delethe the all code and paste below code
+
+---------
+# Import python packages
+import streamlit as st
+from snowflake.snowpark.context import get_active_session
+
+# Write directly to the app
+st.title(":apple: Uncle Yer's Fruit Details :apple:")
+st.write(
+    """Enter Fruit Name and root depth code below.
+    """
+)
+
+# Get the current credentials
+session = get_active_session()
+
+fn = st.text_input('Fruit Name:')
+rdc = st.selectbox('Root Depth:', ('S','M','D'))
+
+if st.button('Submit'):
+    st.write('Fruit Name entered is ' + fn)
+    st.write('Root Depth Code chosen is ' + rdc)
+    sql_insert = 'insert into garden_plants.fruits.fruit_details select \''+fn+'\',\''+rdc+'\''
+    st.write(sql_insert)
+
+-------
+click run
+-----------
+delete the whole code and paste the below code and click on run
+
+-------
+# Import python packages
+import streamlit as st
+from snowflake.snowpark.context import get_active_session
+
+# Write directly to the app
+st.title(":apple: Uncle Yer's Fruit Details :apple:")
+st.write(
+    """Enter Fruit Name and root depth code below.
+    """
+)
+
+# Get the current credentials
+session = get_active_session()
+
+fn = st.text_input('Fruit Name:')
+rdc = st.selectbox('Root Depth:', ('S','M','D'))
+
+if st.button('Submit'):
+    # st.write('Fruit Name entered is ' + fn)
+    # st.write('Root Depth Code chosen is ' + rdc)
+    sql_insert = 'insert into garden_plants.fruits.fruit_details select \''+fn+'\',\''+rdc+'\''
+    # st.write(sql_insert)
+    result = session.sql(sql_insert)
+    st.write(result)
+--------
+Enter the fruit name : Apricot 
+Select value : S
+Click on SUBMIT BUTTON
+------
+ANSWER SHOULD be Number of rows inserted 1
+--------------
 
 ---------------------------
-UDNERSTAND THE BELOW LINE FIRST
+UDNERSTAND THE BELOW LINE FIRST- ITS DORA TEST- Go to the UTIL_DB >  Select ACCOUNT ADMIN TYE > COMPUTE and then RUN
 --Set your worksheet drop list role to ACCOUNTADMIN
 --Set your worksheet drop list database and schema to the location of your GRADER function
 
@@ -468,6 +568,10 @@ select GRADER(step, (actual = expected), actual, expected, description) as grade
  ,'SiS App Works' as description
 ); 
 
+
+IF ITS RIGHT
+------
+Then DORA 9 test got clear
 -----------------------------------
 UDNERSTAND THE BELOW LINE FIRST
 
