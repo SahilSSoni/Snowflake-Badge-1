@@ -568,11 +568,26 @@ select GRADER(step, (actual = expected), actual, expected, description) as grade
  ,'SiS App Works' as description
 ); 
 
+-----------------
 
 IF ITS RIGHT
 ------
 Then DORA 9 test got clear
 -----------------------------------
+Check your DORA PROGERSS:
+Link : https://ysa.snowflakeuniversity.com/
+Enter :  YOUR UNI ID:
+Enter : YOUR ASSIGNED UUID:  and clock enter - you will get the progress under the BADGE REQUIREMENT
+-------------------------------
+
+🥋 Create a Snowflake Stage Object
+
+
+Go to UTIL_DB /PUBLIC > Create > Stage > Snowflake Managed > Enter Name : my_internal_stage > Comment : a place to hold  files before loading them 
+ENABLE Directory table
+from the encryption select : Server-side encryption  and click CREATE
+
+-------------------------------
 UDNERSTAND THE BELOW LINE FIRST
 
 
@@ -590,7 +605,30 @@ select GRADER(step, (actual = expected), actual, expected, description) as grade
   , 'Internal stage created' as description
  ); 
 
+---------------
+
+
+IF ITS RIGHT
+------
+Then DORA 10 test got clear
+-----------------------------------
+Check your DORA PROGERSS:
+Link : https://ysa.snowflakeuniversity.com/
+Enter :  YOUR UNI ID:
+Enter : YOUR ASSIGNED UUID:  and clock enter - you will get the progress under the BADGE REQUIREMENT
+
 -----------
+
+GO THE THE LAB and download the file : 
+
+VEG_NAME_TO_SOIL_TYPE_PIPE.txt
+
+
+------------
+UNDERSTAND BELOW LINE:
+
+Make sure you create it in the GARDEN_PLANTS database, in the VEGGIES schema. 
+
 
 create or replace table vegetable_details_soil_type
 ( plant_name varchar(25)
@@ -634,6 +672,22 @@ select GRADER(step, (actual = expected), actual, expected, description) as grade
 
 --------------------------------
 
+
+IF ITS RIGHT
+------
+Then DORA 11 test got clear
+-----------------------------------
+Check your DORA PROGERSS:
+Link : https://ysa.snowflakeuniversity.com/
+Enter :  YOUR UNI ID:
+Enter : YOUR ASSIGNED UUID:  and clock enter - you will get the progress under the BADGE REQUIREMENT
+--------------------------
+
+Downlaod the available file in the beginnin of Lab 12 and upload to my_internal_stage
+
+------------------------------
+PASTE IN VEGIS Selection not UTIL DB
+
 create file format garden_plants.veggies.COMMASEP_DBLQUOT_ONEHEADROW 
     TYPE = 'CSV'--csv for comma separated files
     FIELD_DELIMITER = ',' --commas as column separators
@@ -643,15 +697,20 @@ create file format garden_plants.veggies.COMMASEP_DBLQUOT_ONEHEADROW
 
 
 -------------------------------
+----------------------------
 
 --The data in the file, with no FILE FORMAT specified
 select $1
 from @util_db.public.my_internal_stage/LU_SOIL_TYPE.tsv;
 
+-----------------------------------
+
 --Same file but with one of the file formats we created earlier  
 select $1, $2, $3
 from @util_db.public.my_internal_stage/LU_SOIL_TYPE.tsv
 (file_format => garden_plants.veggies.COMMASEP_DBLQUOT_ONEHEADROW);
+
+-------------------------------
 
 --Same file but with the other file format we created earlier
 select $1, $2, $3
@@ -659,7 +718,26 @@ from @util_db.public.my_internal_stage/LU_SOIL_TYPE.tsv
 (file_format => garden_plants.veggies.PIPECOLSEP_ONEHEADROW );
 
 ---------------------------
+CREATE FILE FORMAT- DO NOT COPY AND PASTE
 
+create file format L9_CHALLEGE_FF
+    type = CSV
+
+
+------------------------------------
+create file format garden_plants.veggies.L9_CHALLENGE_FF
+    TYPE = 'CSV'--csv for comma separated files
+    FIELD_DELIMITER = ',' --commas as column separators
+    SKIP_HEADER = 1 --one header row  
+    FIELD_OPTIONALLY_ENCLOSED_BY = '"' --this means that some values will be wrapped in double-quotes bc they have commas in them
+    ;
+--------------------
+
+
+select $1, $2, $3
+from @util_db.public.my_internal_stage/LU_SOIL_TYPE.tsv
+(file_format=>garden_plants.veggies.L9_CHALLENGE_FF);
+----------------
 
 create or replace table LU_SOIL_TYPE(
 SOIL_TYPE_ID number,	
