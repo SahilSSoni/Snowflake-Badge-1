@@ -833,6 +833,14 @@ values
 
 
 -------------------------------------
+create sequence SEQ_AUTHOR_UID
+     start = 1
+     increment = 1
+     ORDER
+     comment = 'Use this to fill in AUTHOR_UID';
+
+
+-------------------------------------
 
 
 // Look at your table with it's new rows
@@ -875,9 +883,7 @@ values
 
 
 -------------------
-
-copy whole code till line 718
---------------------
+-------------------
 
 
 use database library_card_catalog;
